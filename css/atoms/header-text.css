@@ -21,14 +21,18 @@ h5 {
     line-height: 22px;;
 }
 
-
 p {
     font-size: 15.5px;
     line-height: 25px;
-    /* p in appointment block; line height is 19 */
+    /* p in appointment block, and bottom slider block, below the imagge; line height is 20 */
 }
+
 
 .subtitle {
     font-size: 12px;
     line-height: 20px;
+}
+
+.numbered {
+    font-size: 21px;
 }
