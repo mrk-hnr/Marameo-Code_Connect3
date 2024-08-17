@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+}
+
+.component-container {
+  max-width: 1920px;
+    /*max-width: 1520px; --- Figma max width*/
+  
+  margin-inline: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #0F1828;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
+  gap: 10px;
+}
