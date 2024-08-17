@@ -37,3 +37,8 @@ ul {
   margin: 0 auto;
   width: 10%;
 }
+
+.reset {
+  margin: 0;
+  padding: 0;
+}

@@ -27,12 +27,17 @@ p {
     /* p in appointment block, and bottom slider block, below the imagge; line height is 20 */
 }
 
-
 .subtitle {
     font-size: 12px;
     line-height: 20px;
 }
 
-.numbered {
+.slider-number {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.card-number {
     font-size: 21px;
+    line-height: 29px;
 }
