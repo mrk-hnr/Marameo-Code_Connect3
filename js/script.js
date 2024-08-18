@@ -39,12 +39,14 @@ prevSlide.addEventListener("click", function () {
 });
 
 function newPage() {
-  currentPage += 1;
-  document.getElementById("current-page").innerText = currentPage;
-  console.log(currentPage);
-
-  if (currentPage === 9) {
-    currentPage = 0;
+  if (currentPage == 9) {
+    currentPage = 1;
+    console.log(currentPage);
+    document.getElementById("current-page").innerText = currentPage;
+  } else {
+    currentPage += 1;
+    document.getElementById("current-page").innerText = currentPage;
+    console.log(currentPage);
   }
 }
 
@@ -53,7 +55,7 @@ function backPage() {
     currentPage -= 1;
     document.getElementById("current-page").innerText = currentPage;
     console.log(currentPage);
-  } else {
+  } else if (currentPage == 1) {
     currentPage = 9;
     document.getElementById("current-page").innerText = currentPage;
     console.log(currentPage);
