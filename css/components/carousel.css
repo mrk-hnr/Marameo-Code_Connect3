@@ -8,7 +8,7 @@
 }
 
 .slide-container {
-  height: 40vh;
+  height: 45vh;
 }
 
 .carousel-primary,
@@ -74,3 +74,40 @@ p {
 }
 
 /* BOTTOM CAROUSEL - BUTTON */
+
+.table-content {
+  display: flex;
+  gap: 40px;
+  justify-content: end;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* asdasd */
+.slider {
+  height: 240px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slide {
+  width: 350px;
+  padding-right: 20px;
+  position: absolute;
+  transition: all 0.5s;
+  justify-content: center;
+}
+
+.slide img {
+  border-radius: 14px;
+  width: 100%;
+  /* height: calc(100% - 20px); */
+  left: 10px;
+  top: 10px;
+}
