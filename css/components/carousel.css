@@ -1,0 +1,76 @@
+/* TOP CAROUSEL - AUTOPLAY-LOOP */
+
+.carousel-container {
+  width: 99%;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.slide-container {
+  height: 40vh;
+}
+
+.carousel-primary,
+.carousel-secondary {
+  left: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.carousel-primary {
+  display: flex;
+  justify-content: space-around;
+  animation: slide-horizontal 20s linear infinite;
+}
+
+.carousel-secondary {
+  animation: slide-horizontal 20s linear infinite;
+  animation-delay: 10s;
+}
+
+.carousel-content {
+  width: 100%;
+  position: relative;
+}
+
+.carousel-content .carousel-label {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.carousel-content .carousel-label img {
+  width: 11px;
+}
+
+p {
+  padding: 0 15px;
+}
+
+.carousel-content {
+  margin: 0 5px;
+}
+
+.carousel-content > img {
+  filter: brightness(80%);
+  width: 100%;
+  border-radius: 14px;
+}
+
+@keyframes slide-horizontal {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+/* BOTTOM CAROUSEL - BUTTON */
