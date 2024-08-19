@@ -1,0 +1,61 @@
+header {
+  position: relative; /* Makes position fix work for child */
+}
+
+/* header > div {
+  position: absolute;
+  z-index: 1;
+
+} */
+
+.nav {
+  top: 20px;
+  position: fixed; /* alt to sticky to screen. Why it won't reflect on dev tool??*/
+  left: 50%; /* centers fixed element */
+  transform: translate(-50%); /* centers fixed element */
+  z-index: 99;
+
+  background: white;
+  width: 95%;
+  max-width: 1440px;
+  margin: 0 auto;
+  border-radius: 22px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+.logo-container {
+  flex: 2;
+}
+
+.logo-container img {
+  /* center vertically */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav .nav-links-container {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .nav-links-container a {
+  position: relative;
+  top: 80%;
+  transform: translateY(-50%);
+}
+
+.nav .nav-links-container button {
+  background: rgba(40, 56, 73, 1);
+  color: white;
+}
+
+@media (max-width: 950px) {
+  .nav .nav-links-container {
+    display: none;
+  }
+}

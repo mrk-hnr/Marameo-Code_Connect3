@@ -1,184 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global/fonts.css">
-    <link rel="stylesheet" href="./css/global/base.css">
-    <link rel="stylesheet" href="./css/global/utilities.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global/fonts.css" />
+    <link rel="stylesheet" href="./css/global/base.css" />
+    <link rel="stylesheet" href="./css/global/utilities.css" />
 
-    <link rel="stylesheet" href="./css/atoms/buttons.css">
-    <link rel="stylesheet" href="./css/atoms/header-text.css">
+    <link rel="stylesheet" href="./css/atoms/buttons.css" />
+    <link rel="stylesheet" href="./css/atoms/header-text.css" />
 
-    <link rel="stylesheet" href="./css/components/carousel.css">
+    <link rel="stylesheet" href="./css/components/carousel.css" />
+    <link rel="stylesheet" href="./css/components/header-nav.css" />
+    <link rel="stylesheet" href="./css/components/burger.css" />
 
-    <link rel="stylesheet" href="./css/blocks/hero.css">
+    <link rel="stylesheet" href="./css/blocks/hero.css" />
 
     <title>Marameo - Code Connect</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="nav">
+          <div class="logo-container">
+            <img src="../assets/images/logo-acuity.svg" alt="" />
+          </div>
+          <div class="nav-links-container">
+            <a href="#">Pricing</a>
+            <a href="#">Help</a>
+            <a href="#">Log In</a>
+            <button>Try Scheduling</button>
+          </div>
+          <div id="burger-menu">
+            <span></span>
+          </div>
 
+          <div id="menu">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="./assets/images/logo-acuity.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="nav-button properties-18-26 weight-500">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-button properties-18-26 weight-500">
+                  Help
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-button properties-18-26 weight-500">
+                  Log in
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-button properties-18-26 weight-500">
+                  <button>Try Scheduling</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
     <main class="hero">
-        <div class="component-container">
-            <div class="content center-margin center-text">
-                    <h1 class="wt-500">Flexible scheduling software to help you succeed</h1>
-                    <p>With seamless client scheduling, secure payments, and workflow automation, all you have to do is show up on time.</p>
-                    <button class="center-margin">Try Scheduling</button>
-                    <span class="subtitle">
-                        No credit card needed
-                    </span>
+      <div class="component-container">
+        <div class="content center-margin center-text">
+          <h1 class="wt-500">
+            Flexible scheduling software to help you succeed
+          </h1>
+          <p>
+            With seamless client scheduling, secure payments, and workflow
+            automation, all you have to do is show up on time.
+          </p>
+          <button class="center-margin">Try Scheduling</button>
+          <span class="subtitle"> No credit card needed </span>
 
-                     <!-- CAROUSEL -->
-
-
-
-
-            </div>
-
-            <div class="carousel-container">
-                <div class="slide-container">
-                  <div class="carousel-primary">
-        
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder1.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                  
-                                10:00 AM</p>
-                            <p>Blowout</p>
-                        </div>
-                    </div>
-        
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder2.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                10:15 AM</p>
-                            <p>Hair Appointment</p>
-                        </div>
-                    </div>
-        
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder3.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                12:30 PM</p>
-                            <p>Reiki Session</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder4.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                  
-                                2:00 PM</p>
-                            <p>Lens Adjustment</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder5.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                  
-                                4:30 PM</p>
-                            <p>Car Detailing</p>
-                        </div>
-                    </div>
-        
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder6.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                  
-                                6:00 PM</p>
-                            <p>Dance Lesson</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder1.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                  
-                                8:00 AM</p>
-                            <p>Blowout</p>
-                        </div>
-                    </div>
-        
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder2.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                10:15 PM</p>
-                            <p>Hair Appointment</p>
-                        </div>
-                    </div>
-        
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder3.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                12:30 PM</p>
-                            <p>Reiki Session</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder4.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                  
-                                2:00 PM</p>
-                            <p>Lens Adjustment</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder5.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                  
-                                4:30 PM</p>
-                            <p>Car Detailing</p>
-                        </div>
-                    </div>
-        
-                    <div class="carousel-content">
-                        <img src="./assets/images/top-silder6.jpg" alt="" />
-                        <div class="carousel-label">
-                            <p>
-                                <img src="./assets/images/white-circle.svg" alt="">
-                                  
-                                6:00 PM</p>
-                            <p>Dance Lesson</p>
-                        </div>
-                    </div>
-        
-                  </div>
-        
-
-                </div>
-              </div>  
-
+          <!-- CAROUSEL -->
         </div>
+
+        <div class="carousel-container">
+          <div class="slide-container">
+            <div class="carousel-primary">
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder1.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+
+                    10:00 AM
+                  </p>
+                  <p>Blowout</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder2.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+                    10:15 AM
+                  </p>
+                  <p>Hair Appointment</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder3.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+                    12:30 PM
+                  </p>
+                  <p>Reiki Session</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder4.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+
+                    2:00 PM
+                  </p>
+                  <p>Lens Adjustment</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder5.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+
+                    4:30 PM
+                  </p>
+                  <p>Car Detailing</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder6.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+
+                    6:00 PM
+                  </p>
+                  <p>Dance Lesson</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder1.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+
+                    8:00 AM
+                  </p>
+                  <p>Blowout</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder2.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+                    10:15 PM
+                  </p>
+                  <p>Hair Appointment</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder3.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+                    12:30 PM
+                  </p>
+                  <p>Reiki Session</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder4.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+
+                    2:00 PM
+                  </p>
+                  <p>Lens Adjustment</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder5.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+
+                    4:30 PM
+                  </p>
+                  <p>Car Detailing</p>
+                </div>
+              </div>
+
+              <div class="carousel-content">
+                <img src="./assets/images/top-silder6.jpg" alt="" />
+                <div class="carousel-label">
+                  <p>
+                    <img src="./assets/images/white-circle.svg" alt="" />
+
+                    6:00 PM
+                  </p>
+                  <p>Dance Lesson</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <img src="./assets/images/construction.gif" alt="" id="construction">
-    
-    
+    <img src="./assets/images/construction.gif" alt="" id="construction" />
+
     <script src="/js/script.js"></script>
-</body>
+  </body>
 </html>

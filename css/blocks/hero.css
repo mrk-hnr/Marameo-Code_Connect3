@@ -9,6 +9,7 @@
 
 .hero .content {
   max-width: 570px;
+  margin-top: 10%;
 }
 
 .hero .content > * {

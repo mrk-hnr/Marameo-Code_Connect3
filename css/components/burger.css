@@ -1,0 +1,142 @@
+#burger-menu,
+#menu {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  #burger-menu,
+  #menu {
+    display: block;
+  }
+
+  #burger-menu {
+    cursor: pointer;
+    height: 27px;
+    width: 30px;
+    right: 0;
+    margin: 20px 25px 0 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 2;
+    right: 35px;
+    top: 0;
+  }
+
+  #burger-menu span,
+  #burger-menu span:before,
+  #burger-menu span:after {
+    cursor: pointer;
+    background: rgba(40, 56, 73, 1);
+    display: block;
+    height: 4px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+  }
+
+  #burger-menu span:before,
+  #burger-menu span:after {
+    content: "";
+  }
+  #burger-menu span {
+    right: 0;
+    top: 10px;
+    width: 30px;
+  }
+  #burger-menu span:before {
+    left: 0px;
+    top: -10px;
+    width: 16px;
+  }
+  #burger-menu span:after {
+    left: 0px;
+    top: 10px;
+    width: 20px;
+  }
+
+  #burger-menu.close span {
+    transform: rotate(-45deg);
+    top: 8px;
+    width: 30px;
+    background: rgba(40, 56, 73, 1);
+  }
+  #burger-menu.close span:before {
+    top: 0px;
+    transform: rotate(90deg);
+    width: 30px;
+    background: rgba(40, 56, 73, 1);
+  }
+  #burger-menu.close span:after {
+    top: 0px;
+    left: 0;
+    transform: rotate(90deg);
+    opacity: 0;
+    width: 0;
+  }
+
+  #menu {
+    z-index: 1;
+    min-width: 100%;
+    /* min-height: 70vh; */
+    min-height: 25rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    padding-top: 20px;
+    transition: all 0.2s ease-in-out;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+  }
+
+  #menu.overlay {
+    visibility: visible;
+    opacity: 1;
+    padding-top: 100px;
+    background: rgba(255, 255, 255, 0);
+    left: 0;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    background: white;
+  }
+
+  #menu li {
+    list-style: none;
+  }
+
+  #menu li:first-of-type {
+    margin-top: -70px;
+    margin-bottom: 15px;
+  }
+
+  #menu li:last-of-type {
+    margin-top: -20px;
+  }
+
+  #menu a {
+    color: rgba(40, 56, 73, 1);
+    display: block;
+    font-size: 32px;
+    margin-bottom: 45px;
+    text-decoration: none;
+  }
+
+  .fa-2x {
+    font-size: 1em;
+  }
+}
+
+#menu button {
+  color: white;
+  background: rgba(40, 56, 73, 1);
+  margin-top: 1px;
+}
+
+#menu button:hover {
+  color: white;
+  background: rgba(40, 56, 73, 1);
+  margin-top: 1px;
+}
