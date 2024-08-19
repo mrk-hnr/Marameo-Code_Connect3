@@ -1,0 +1,20 @@
+.hero {
+  background: rgba(95, 147, 192, 1);
+  color: rgba(255, 255, 255, 1);
+  overflow: hidden; /* Hides side scroll */
+  position: relative; /* makes overflow work */
+  height: 100vh;
+}
+
+.hero .content {
+  max-width: 570px;
+}
+
+.hero button {
+  background: white;
+  margin: 30px 0 15px 0;
+}
+
+.hero .subtitle {
+  display: block;
+}

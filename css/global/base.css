@@ -2,8 +2,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-
 
 body {
   padding: 0;
@@ -12,16 +13,15 @@ body {
 }
 
 .component-container {
-  max-width: 1920px;
-    /*max-width: 1520px; --- Figma max width*/
-  
+  max-width: 1440px;
+
   margin-inline: auto;
   width: 100%;
 }
 
 a {
   text-decoration: none;
-  color: #0F1828;
+  color: #0f1828;
 }
 
 ul {

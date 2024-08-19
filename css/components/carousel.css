@@ -1,20 +1,25 @@
 /* TOP CAROUSEL - AUTOPLAY-LOOP */
 
 .carousel-container {
+  background: rgba(95, 147, 192, 1);
   width: 99%;
   overflow: hidden;
-  position: absolute;
+  /* position absolute makes carousel disappear */
+
   white-space: nowrap;
+  padding: 65px 0 0 0;
 }
 
 .slide-container {
-  height: 45vh;
+  height: 30vh;
 }
 
 .carousel-primary,
 .carousel-secondary {
-  left: 100%;
-  width: 100%;
+  gap: 20px;
+  /* left: 100%; */
+  /* width: 350%; */
+  width: 270rem;
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
