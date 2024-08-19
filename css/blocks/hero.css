@@ -1,6 +1,7 @@
 .hero {
   background: rgba(95, 147, 192, 1);
   color: rgba(255, 255, 255, 1);
+  white-space: nowrap;
   overflow: hidden; /* Hides side scroll */
   position: relative; /* makes overflow work */
   height: 90vh;
@@ -8,6 +9,10 @@
 
 .hero .content {
   max-width: 570px;
+}
+
+.hero .content > * {
+  white-space: pre-line; /* Makes content inside follow container's width. It was messed up due to carousel needing position changes to multiple containers */
 }
 
 .hero button {

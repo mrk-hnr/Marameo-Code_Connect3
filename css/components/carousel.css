@@ -4,8 +4,8 @@
   background: rgba(95, 147, 192, 1);
   width: 99%;
   overflow: hidden;
-  /* position absolute makes carousel disappear */
 
+  /* position absolute makes carousel disappear */
   white-space: nowrap;
   padding: 65px 0 0 0;
 }
@@ -20,9 +20,8 @@
   /* left: 100%; */
   /* width: 350%; */
   width: 270rem;
-  overflow: hidden;
+
   position: absolute;
-  white-space: nowrap;
 }
 
 .carousel-primary {
@@ -93,7 +92,7 @@ button {
   transition: all 0.3s ease-in-out;
 }
 
-/* asdasd */
+/* MANUAL CAROUSEL CONTENT */
 .slider {
   height: 240px;
   position: relative;
