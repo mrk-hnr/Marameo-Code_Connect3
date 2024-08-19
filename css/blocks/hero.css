@@ -3,7 +3,7 @@
   color: rgba(255, 255, 255, 1);
   overflow: hidden; /* Hides side scroll */
   position: relative; /* makes overflow work */
-  height: 100vh;
+  height: 90vh;
 }
 
 .hero .content {
