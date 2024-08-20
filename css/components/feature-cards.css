@@ -1,0 +1,58 @@
+.feat-row {
+  display: flex;
+  background: rgba(244, 244, 244, 1);
+  padding: 64px;
+}
+
+.feat-row__left .feat-row__left h2 {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.feat-row__left {
+  flex: 1;
+}
+
+.feat-row__right {
+  text-align: right;
+  position: relative;
+  flex: 1.5;
+}
+
+.feat-row__right img {
+  border-radius: 22px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.feat-row__label {
+  position: absolute;
+  right: 25px;
+  top: 235px;
+  color: white;
+}
+
+.feature-bottom {
+  flex: 1.2 !important;
+}
+
+.feature-bottom img {
+  max-width: 455px;
+}
+
+/* VERTICAL CARD */
+
+.feat-col {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.feat-col img {
+  width: 100%;
+}
+
+/* ADD MEDIA QUERIES ONCE INTEGRATED INTO INDEX */

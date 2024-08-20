@@ -27,13 +27,13 @@
 .carousel-primary {
   display: flex;
   justify-content: space-around;
-  animation: slide-horizontal 20s linear infinite;
+  animation: slide-horizontal 50s linear infinite;
 }
 
-.carousel-secondary {
+/* .carousel-secondary {
   animation: slide-horizontal 20s linear infinite;
   animation-delay: 10s;
-}
+} */
 
 .carousel-content {
   width: 100%;
@@ -53,7 +53,7 @@
   width: 11px;
 }
 
-p {
+.carousel-label p {
   padding: 0 15px;
 }
 

@@ -14,15 +14,11 @@ header {
   left: 50%; /* centers fixed element */
   transform: translate(-50%); /* centers fixed element */
   z-index: 99;
-
   background: white;
   width: 95%;
   max-width: 1440px;
-  margin: 0 auto;
   border-radius: 22px;
-
   display: flex;
-  justify-content: space-between;
   padding: 18px;
 }
 
