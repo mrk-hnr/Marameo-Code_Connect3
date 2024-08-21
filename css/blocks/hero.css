@@ -4,7 +4,7 @@
   white-space: nowrap;
   overflow: hidden; /* Hides side scroll */
   position: relative; /* makes overflow work */
-  height: 60vh;
+  height: 760px;
 }
 
 .hero .content {

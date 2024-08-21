@@ -55,3 +55,9 @@ header {
     display: none;
   }
 }
+
+/* @media (min-width: 600px) {
+  .hero {
+    height: 50vh;
+  }
+} */
