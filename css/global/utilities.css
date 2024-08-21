@@ -1,23 +1,31 @@
-.reset-me {
-    padding: 0;
-    margin: 0;
+#construction {
+  display: flex;
+  margin: 0 auto;
+  width: 10%;
+}
+
+.reset {
+  padding: 0;
+  margin: 0;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 .center-margin {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .wt-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .wt-500 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
-
-
+.col {
+  display: flex;
+  flex-direction: column;
+}

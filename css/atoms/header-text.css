@@ -46,3 +46,13 @@ p {
   font-size: 14px;
   line-height: 19px;
 }
+
+/* OUTLIERS */
+.features h2 {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.features p {
+  margin-top: 7px;
+}

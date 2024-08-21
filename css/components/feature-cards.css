@@ -1,58 +1,33 @@
-.feat-row {
+.feat__row {
   display: flex;
-  background: rgba(244, 244, 244, 1);
+  justify-content: space-around;
+  /* background: rgba(244, 244, 244, 1); */
+  background: rgb(219, 219, 219);
+  border-radius: 22px;
   padding: 64px;
+  gap: 20px;
 }
 
-.feat-row__left .feat-row__left h2 {
-  font-size: 22px;
-  line-height: 24px;
-}
-
-.feat-row__left {
+.feat__content {
   flex: 1;
 }
 
-.feat-row__right {
-  text-align: right;
-  position: relative;
-  flex: 1.5;
+.feat__content:nth-child(1) h2 {
+  max-width: 90%;
 }
 
-.feat-row__right img {
+.feat__media {
+  flex: 1;
+  text-align: end;
+}
+
+.feat__media img {
   border-radius: 22px;
-  margin-left: 0;
-  margin-right: auto;
+  object-fit: cover;
+  object-position: 0% 85%;
+  margin-right: -25px;
 }
 
-.feat-row__label {
-  position: absolute;
-  right: 25px;
-  top: 235px;
-  color: white;
+.feat__row .feat__media img {
+  align-items: end;
 }
-
-.feature-bottom {
-  flex: 1.2 !important;
-}
-
-.feature-bottom img {
-  max-width: 455px;
-}
-
-/* VERTICAL CARD */
-
-.feat-col {
-  padding: 64px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-}
-
-.feat-col img {
-  width: 100%;
-}
-
-/* ADD MEDIA QUERIES ONCE INTEGRATED INTO INDEX */
