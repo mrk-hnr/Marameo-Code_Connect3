@@ -1,0 +1,25 @@
+.appointment {
+  max-width: 950px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.appointment .appointment__content {
+  max-width: 550px;
+}
+
+.appointment .appointment__content p {
+  margin-top: 25px;
+}
+
+.appointment__content-media {
+  max-width: 710px;
+  gap: 80px;
+}
+
+.appointment__content-media img {
+  width: 100%;
+  object-fit: cover;
+}

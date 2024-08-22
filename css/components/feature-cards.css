@@ -101,3 +101,9 @@
     width: 100% !important;
   }
 }
+
+@media (max-width: 450px) {
+  .feat__row:nth-of-type(1) img {
+    width: 100%;
+  }
+}
