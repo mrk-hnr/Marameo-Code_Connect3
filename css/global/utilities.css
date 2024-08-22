@@ -25,6 +25,10 @@
   font-weight: 500;
 }
 
+.flex {
+  display: flex;
+}
+
 .col {
   display: flex;
   flex-direction: column;

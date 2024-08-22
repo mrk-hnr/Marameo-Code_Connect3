@@ -23,3 +23,42 @@
   width: 100%;
   object-fit: cover;
 }
+
+.appt-footer {
+  padding: 0 65px;
+  margin-top: 80px;
+}
+
+.appt-footer .component-container {
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.appt-footer__left-content {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.appt-footer__right-content {
+  max-width: 30rem;
+  display: inline-block;
+  align-self: flex-end;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 900px) {
+  .appt-footer__right-content {
+    align-self: center;
+    margin: 0;
+  }
+}
+@media (max-width: 650px) {
+  .appt-footer {
+    padding: 0 20px;
+  }
+  .appt-footer > .component-container.flex {
+    flex-direction: column;
+  }
+}
