@@ -79,6 +79,10 @@
 
 /* BOTTOM CAROUSEL - BUTTON */
 
+.secondary-carousel {
+  padding: 0 20px;
+}
+
 .table-content {
   display: flex;
   gap: 40px;
