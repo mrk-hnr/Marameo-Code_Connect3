@@ -1,0 +1,12 @@
+.dynamic-feature__label {
+  justify-content: space-between;
+}
+
+.dynamic-feature__label h2 {
+  width: 300px;
+}
+
+.dynamic-feature__label p {
+  margin-top: 1%;
+  width: 430px;
+}
