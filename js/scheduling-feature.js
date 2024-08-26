@@ -89,18 +89,25 @@ const features = [
 
 features.forEach((labels) => {
   // CREATES HTML EL
+  const featureCounter = document.createElement("label");
   const featureHeader = document.createElement("span");
   const featureDesc = document.createElement("p");
 
-  //   ASSIGNS CLASS TO CREATED HTML EL
+  // ASSIGNS CLASS TO CREATED HTML EL
+  featureCounter.className = "dynamic-counter";
   featureHeader.className = "dynamic-feature__header";
   featureDesc.className = "dynamic-feature__desc";
 
-  //   APPEND ARRAY DATA TO HTML RL
+  // APPEND ARRAY DATA TO HTML RL
+  // featureCounter.innerText = `${features.length}`;
   featureHeader.innerText = `${labels.headline}`;
   featureDesc.innerText = `${labels.body}`;
 
-  //   APPEND ALL TO CONTAINER
+  // APPEND ALL TO CONTAINER
+
+  dataContainer.appendChild(featureCounter);
   dataContainer.appendChild(featureHeader);
   dataContainer.appendChild(featureDesc);
+
+  console.log(features.length);
 });
