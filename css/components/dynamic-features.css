@@ -1,3 +1,6 @@
+.dynamic-feature {
+  margin-top: 120px;
+}
 .dynamic-feature__label {
   justify-content: space-between;
 }
@@ -45,4 +48,12 @@
 
 .dynamic-feature__desc {
   font-weight: 400;
+}
+
+@media (max-width: 750px) {
+  .dynamic-feature__label.flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }

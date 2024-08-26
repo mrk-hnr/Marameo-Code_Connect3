@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/components/header-nav.css" />
     <link rel="stylesheet" href="./css/components/burger.css" />
     <link rel="stylesheet" href="./css/components/feature-cards.css" />
+    <link rel="stylesheet" href="./css/components/dynamic-features.css" />
     <link rel="stylesheet" href="./css/components/appointment.css" />
 
     <!-- Blocks -->
@@ -240,7 +241,6 @@
     </main>
 
     <!-- FEATURES -->
-
     <div class="features center-margin">
       <div class="component-container col">
         <!-- FIRST CARD -->
@@ -337,7 +337,6 @@
     </div>
 
     <!-- APPOINTMENT -->
-
     <div class="appointment center-margin">
       <div class="component-container">
         <div class="appointment__content-media col center-margin">
@@ -432,6 +431,23 @@
       </div>
     </div>
 
+    <!-- DYNAMIC FEATURE DATA -->
+    <div class="dynamic-feature center-margin">
+      <div class="component-container">
+        <div class="dynamic-feature__label flex">
+          <h2>More than just a scheduling tool.</h2>
+
+          <p>
+            A cohesive, user-friendly scheduling software made to support you
+            every step of the way.
+          </p>
+        </div>
+        <div id="dynamic-feature__data" class="flex">
+          <!-- DYNAMIC DATA FROM ARRAY-->
+        </div>
+      </div>
+    </div>
+
     <img
       src="./assets/images/construction.gif"
       alt="pikachu doing contruction"
@@ -439,5 +455,6 @@
     />
 
     <script src="./js/script.js"></script>
+    <script src="/js/scheduling-feature.js"></script>
   </body>
 </html>
