@@ -24,7 +24,6 @@
 
 .dynamic-container {
   max-width: 265px;
-  height: 165px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -37,7 +36,7 @@
 }
 
 #dynamic-feature__data {
-  gap: 30px;
+  gap: 50px;
   flex-wrap: wrap;
 }
 

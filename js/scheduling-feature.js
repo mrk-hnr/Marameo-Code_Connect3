@@ -83,6 +83,22 @@ const features = [
     headline: "Do More",
     body: "From time management to task prioritization, this tool does it all.",
   },
+  {
+    headline: "Test Headline",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laudantium.",
+  },
+  {
+    headline: "Test Headline",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laudantium.",
+  },
+  {
+    headline: "Test Headline",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laudantium.",
+  },
+  {
+    headline: "Test Headline",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laudantium.",
+  },
 ];
 
 // FUNCTION
