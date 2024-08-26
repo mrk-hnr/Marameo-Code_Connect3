@@ -12,10 +12,37 @@
 }
 
 .component-container {
-  counter-reset: dynamic-counter;
+  counter-reset: dynamic-counter; /* Part of CSS Counter syntax */
 }
 
-.dynamic-feature__header::before {
+#dynamic-feature__data {
+  margin-top: 65px;
+}
+
+.dynamic-container {
+  max-width: 265px;
+  height: 165px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dynamic-counter::before {
+  /* Part of CSS Counter syntax */
   counter-increment: dynamic-counter;
-  content: "0" counter(dynamic-counter) ". ";
+  content: "0" counter(dynamic-counter);
+}
+
+#dynamic-feature__data {
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.dynamic-feature__header {
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.dynamic-feature__desc {
+  font-weight: 400;
 }
