@@ -16,9 +16,20 @@
   white-space: pre-line; /* Makes content inside follow container's width. It was messed up due to carousel needing position changes to multiple containers */
 }
 
-.hero button {
+.hero p {
+  margin-bottom: 45px;
+}
+
+.hero .subtitle {
+  margin-top: 25px;
+}
+
+.hero a {
   background: white;
-  margin: 30px 0 15px 0;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 .hero .subtitle {
