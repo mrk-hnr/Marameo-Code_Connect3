@@ -1,8 +1,10 @@
 .dynamic-feature {
   margin: 120px 0;
 }
+
 .dynamic-feature__label {
   justify-content: space-between;
+  gap: 20px;
 }
 
 .dynamic-feature__label h2 {
@@ -43,10 +45,12 @@
 .dynamic-feature__header {
   font-weight: 500;
   margin-top: 25px;
+  font-family: "AvenirNext";
 }
 
 .dynamic-feature__desc {
   font-weight: 400;
+  font-family: "AvenirNext";
 }
 
 @media (max-width: 750px) {
