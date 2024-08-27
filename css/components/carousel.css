@@ -119,3 +119,17 @@ button {
   left: 10px;
   top: 10px;
 }
+
+@media (max-width: 650px) {
+  .table-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-top: 20px;
+  }
+
+  .table-content button {
+    padding: 7px;
+  }
+}
