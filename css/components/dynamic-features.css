@@ -32,7 +32,7 @@
 .dynamic-counter::before {
   /* Part of CSS Counter syntax */
   counter-increment: dynamic-counter;
-  content: "0" counter(dynamic-counter);
+  content: counter(dynamic-counter, decimal-leading-zero);
 }
 
 #dynamic-feature__data {
