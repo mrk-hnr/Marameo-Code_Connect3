@@ -1,0 +1,36 @@
+.partner-companies {
+  background: rgba(224, 235, 244, 1);
+  border-radius: 22px;
+  padding: 65px 0;
+}
+
+.partner-companies h2 {
+  margin-bottom: 65px;
+}
+
+.partner-balloons {
+  border-radius: 100px;
+  padding: 48px 56px;
+  max-width: 217px;
+  margin: 12px;
+}
+
+#stripe {
+  background: rgba(99, 91, 255, 1);
+}
+
+#square {
+  background: rgba(201, 232, 245, 1);
+}
+
+#zapier {
+  background: rgba(32, 21, 21, 1);
+}
+
+#paypal {
+  background: rgba(255, 209, 64, 1);
+}
+
+#analytics {
+  background: rgba(255, 255, 255, 1);
+}
