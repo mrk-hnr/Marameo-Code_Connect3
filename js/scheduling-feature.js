@@ -106,8 +106,8 @@ const features = [
 features.forEach((labels) => {
   // CREATES HTML EL
   const featureDataContainer = document.createElement("div");
-  const featureCounter = document.createElement("label");
-  const featureHeader = document.createElement("span");
+  const featureCounter = document.createElement("span");
+  const featureHeader = document.createElement("h3");
   const featureDesc = document.createElement("p");
 
   // ASSIGNS CLASS TO CREATED HTML EL
