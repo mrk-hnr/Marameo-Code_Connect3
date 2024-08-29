@@ -2,14 +2,13 @@
   background: rgba(95, 147, 192, 1);
   color: rgba(255, 255, 255, 1);
   white-space: nowrap;
-  overflow: hidden; /* Hides side scroll */
-  position: relative; /* makes overflow work */
-  height: 760px;
+  /*overflow: hidden;  Hides side scroll */
+  /* position: relative;  makes overflow work */
 }
 
 .hero .content {
   max-width: 570px;
-  margin-top: 10%;
+  padding-top: 100px;
 }
 
 .hero .content > * {
