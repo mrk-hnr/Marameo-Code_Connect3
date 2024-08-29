@@ -20,6 +20,7 @@ header {
   border-radius: 22px;
   display: flex;
   padding: 18px;
+  padding-bottom: 25px;
 }
 
 .logo-container {
@@ -31,6 +32,7 @@ header {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  margin-top: 5px;
 }
 
 .nav .nav-links-container {
@@ -51,7 +53,8 @@ header {
   /* transform: translateY(-50%); */
 }
 
-.nav .nav-links-container button {
+.nav .nav-links-container button,
+#button-link {
   background: rgba(40, 56, 73, 1);
   color: white;
 }

@@ -35,6 +35,7 @@
   /* Part of CSS Counter syntax */
   counter-increment: dynamic-counter;
   content: counter(dynamic-counter, decimal-leading-zero);
+  font-weight: 400;
 }
 
 #dynamic-feature__data {

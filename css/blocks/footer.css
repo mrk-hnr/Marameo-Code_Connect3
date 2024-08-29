@@ -25,6 +25,16 @@ footer .footer__links {
   margin-bottom: 30px;
 }
 
+footer p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+footer a {
+  font-size: 16px;
+  line-height: 21px;
+}
+
 .foooter__links-column {
   column-count: 2;
   column-gap: 115px;

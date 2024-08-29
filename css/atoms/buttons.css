@@ -1,6 +1,7 @@
-button {
-  font-size: 14px;
-  line-height: 19px;
+button,
+#button-link {
+  font-size: 13.78px;
+  line-height: 18.76px;
   padding: 12px 25px;
   border-radius: 12px;
   border: none;

@@ -11,6 +11,7 @@
 
 .appointment .appointment__content p {
   margin-top: 25px;
+  line-height: 19px;
 }
 
 .appointment__content-media {

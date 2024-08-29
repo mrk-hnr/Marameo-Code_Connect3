@@ -1,7 +1,7 @@
 /* Sizes were rounded up to the nearest whole number*/
 
 h1 {
-  font-size: 38px;
+  font-size: 37px;
   line-height: 48px;
 }
 
@@ -22,7 +22,7 @@ h5 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 25px;
   /* p in appointment block, and bottom slider block, below the imagge; line height is 20 */
 }
@@ -44,7 +44,7 @@ p {
 
 .nav a {
   font-size: 14px;
-  line-height: 19px;
+  line-height: 18.76px;
 }
 
 /* OUTLIERS */
@@ -55,4 +55,13 @@ p {
 
 .features p {
   margin-top: 7px;
+}
+
+.dynamic-counter {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.dynamic-counter p {
+  line-height: 22.4px;
 }

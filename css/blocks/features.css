@@ -6,3 +6,7 @@
 .features > div {
   gap: 20px;
 }
+
+.features p {
+  font-size: 13px;
+}
