@@ -157,9 +157,8 @@ button {
 
 .carousel__content {
   gap: 20px;
-  animation: slide-horizontal 12s linear infinite;
+  animation: slide-horizontal 10s linear infinite;
   padding-right: 20px;
-
   width: 100%;
 }
 
@@ -189,6 +188,8 @@ button {
 
 .carousel-img-layer {
   filter: brightness(80%);
+  height: 224px;
+  max-width: 420px;
   border-radius: 22px;
 }
 
